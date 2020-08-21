@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // "envFile": "${C:/chatenv}/.env",
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${file}",
+            "env": {
+                // "project_id": "chat-1597906040285"
+                "GOOGLE_APPLICATION_CREDENTIALS": "C:/Users/jman7/credentials/Chat-8e7d008d43b9.json"
+            }
+        }
+    ]
+}

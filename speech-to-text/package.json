@@ -1,0 +1,19 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "main": "chatbot.js",
+  "dependencies": {
+    "@google-cloud/speech": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "node-record-lpcm16": "^1.0.1",
+    "sox": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
