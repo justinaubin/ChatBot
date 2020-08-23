@@ -4,9 +4,12 @@
   "main": "chatbot.js",
   "dependencies": {
     "@google-cloud/speech": "^4.1.1",
+    "chalk": "^4.1.0",
     "dotenv": "^8.2.0",
+    "jquery": "^3.5.1",
     "node-record-lpcm16": "^1.0.1",
-    "sox": "^0.1.0"
+    "request": "^2.88.2",
+    "sox": "^14.4.2"
   },
   "devDependencies": {},
   "scripts": {

@@ -5,6 +5,28 @@ const Polly = new AWS.Polly({
     region: 'us-east-2'
 })
 
+
+// TEST CODE IN PROGRESS TO AUTOMATE THE RETRIEVAL OF THE TEXT RESPONSE FROM THE BOT
+// AND OUTPUTTING IT AS SPEECH
+// MAYBE JUST WRITE IT IN PYTHON AND HAVE IT IN SAME FILE?
+
+
+// const request = require('request');
+
+// let url = "http://127.0.0.1:5000/";
+
+// let options = {json: true};
+
+// request(url, options, (error, res, body) => {
+//     if (error) {
+//         return  console.log(error)
+//     };
+
+//     if (!error && res.statusCode == 200) {
+//         console.log(body);
+//     };
+// });
+
 fs.readFile('../speech-to-text/transcription.txt', 'utf8', function(err, data) {
     if (err) throw err;
 
