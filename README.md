@@ -1,10 +1,10 @@
 # ChatBot
 
-Unfinished project meant to allow users to speak to a chatbot about basketball and have the bot respond intelligently to the user in spoken word.
+Unfinished project meant to allow users to speak to a chatbot about Corona Virus and have the bot respond intelligently to the user in spoken word.
 
 required packages:
 
-speech-to-text: @google-cloud/speech
+speech-to-text: @google-cloud/speech, request (npm install request)
 text-to-speech: aws-sdk
 bot.py (python script which interprets user input and replies appropriately):
 
@@ -16,6 +16,7 @@ certifi           2020.6.20
 chardet           3.0.4
 click             7.1.2
 colorama          0.4.3
+Flask             1.1.2
 future            0.18.2
 idna              2.10
 isort             4.3.21
@@ -28,6 +29,7 @@ numpy             1.19.1
 Pillow            7.2.0
 pip               20.2.2
 pylint            2.5.3
+python-dotenv     0.14.0
 regex             2020.7.14
 requests          2.24.0
 scikit-learn      0.23.2
@@ -47,7 +49,7 @@ wheel             0.35.1
 wikipedia         1.4.0
 wrapt             1.12.1
 
-As of now, users can only convet prerecordd audio files to text(A) and convert prewritten messages to speech (B)
+As of now, users are able to 
 
 A) 
 1. Upload an audio file in the speech-to-text/audio_samples folder
