@@ -51,7 +51,7 @@ wrapt             1.12.1
 
 As of now, users are able to record their questions/comments using their computer microphone, and the chatbot will automatically receive this data in text form and give a response also in text. chatbot.js uses the Google-cloud Speech-to-text API and SOX to record user audio, transcribes it to text, and then uses request to send that text to the local host http://127.0.0.1:5000/. Bot.py then retrieves this data using flask and returns an appropriate response in text. 
 
-I have yet to implemnt text-to-speech/index.js yet, however, my goal is to have this file automatically receive the text response from bot.py, convert it to audio, and play it back for the user, thus completing the conversation cycle. 
+I have yet to implement text-to-speech/index.js yet, however, my goal is to have this file automatically receive the text response from bot.py, convert it to audio, and play it back for the user, thus completing the conversation cycle. 
 
 Steps to Run:
 
